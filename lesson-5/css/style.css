@@ -24,6 +24,17 @@ button {
   cursor: pointer;
 }
 
+.validation {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10%;
+}
+
+.validation a {
+  display: inline-block;
+}
+
 /*  ------  Table layout -------- */
 table {
   border-spacing: 10px;
