@@ -1,0 +1,69 @@
+/*  ------  General style  -------- */
+* {
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.header {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid #848484;
+  cursor: pointer;
+}
+
+/*  ------  Table layout -------- */
+table {
+  border-spacing: 10px;
+}
+
+.td-left {
+  width: 202px;
+}
+
+
+/*  ------  Float layout -------- */
+.user-info {
+  float: left;
+  min-width: 443px;
+  margin: 7px auto;
+}
+
+.left {
+  float: left;
+  width: 100px;
+}
+
+.right {
+  float: right;
+  width: 221px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*  ------  Flexbox layout -------- */
+.d-flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.row__cell {
+  flex-basis: 150px;
+  margin-bottom: 15px;
+}
