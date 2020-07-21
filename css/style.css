@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/unnamed.jpg);
+  /* background-size: contain; */
+}
+
 span {
   color: red;
 }
