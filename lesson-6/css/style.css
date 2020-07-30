@@ -20,7 +20,7 @@
 }
 
 .contain {
-  width: 850px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -84,11 +84,28 @@ span {
   margin-top: 10px;
 }
 
+.m-bot-5 {
+  margin-bottom: 5px;
+}
+
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .d-flex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 819px;
+}
+
+.d-block {
+  display: block;
+}
+
+.m-bot {
+  margin-bottom: 4px;;
 }
 
 .border-black-1 {
