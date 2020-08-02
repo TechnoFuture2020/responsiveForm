@@ -20,7 +20,7 @@
     <form action="#" method="GET">
 
       <!--    Table layout    -->
-      <fieldset>
+      <fieldset class="float-layout">
         <legend>
           <h3>Контактная информация</h3>
         </legend>
@@ -28,33 +28,33 @@
         <table>
           <tbody>
             <tr>
-              <td class="td-left">
+              <td>
                 <label for="name-user">Имя<span>*</span></label>
               </td>
               <td>
-                <input type="text" id="name-user" required>
+                <input class="td-input" type="text" id="name-user" required>
               </td>
             </tr>
           </tbody>
 
           <tbody>
             <tr>
-              <td class="td-left">
+              <td>
                 <label for="phone-user">Телефон</label>
               </td>
               <td>
-                <input type="tel" id="phone-user">
+                <input class="td-input" type="tel" id="phone-user">
               </td>
             </tr>
           </tbody>
 
           <tbody>
             <tr>
-              <td class="td-left">
+              <td>
                 <label for="email-user">Email<span>*</span></label>
               </td>
               <td>
-                <input type="email" id="email-user" required>
+                <input class="td-input" type="email" id="email-user" required>
               </td>
             </tr>
           </tbody>
@@ -63,7 +63,7 @@
 
 
       <!--     Float layout    -->
-      <fieldset>
+      <fieldset class="float-layout">
         <legend>
           <h3>Персональная информация</h3>
         </legend>
@@ -131,15 +131,18 @@
             <label for="crab">Краб</label>
           </div>
         </div>
-
       </fieldset>
 
-      <button type="submit">Отправить информацию</button>
-      <div class="validation">
-        <a target="_blank"
+
+
+
+      <div class="validation m-">
+        <button type="submit">Отправить информацию</button>
+        <a class="valid-anchor" target="_blank"
           href="https://validator.w3.org/unicorn/check?ucn_uri=https%3A%2F%2Ftechnofuture2020.github.io%2FVadim%2F&ucn_lang=ru&ucn_task=conformance#">
           <img style="border:0;width:88px;height:31px" src="img/vcss.gif" alt="Правильный CSS!">
-        </a><a target="_blank"
+        </a>
+        <a class="valid-anchor" target="_blank"
           href="https://validator.w3.org/unicorn/check?ucn_uri=https%3A%2F%2Ftechnofuture2020.github.io%2FVadim%2F&ucn_lang=ru&ucn_task=conformance#">
           <img style="border:0;width:88px;height:31px" src="img/vcss-blue.gif" alt="Правильный CSS!">
         </a>
